@@ -351,7 +351,8 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero {
-        background: url('./assets/images/image.jpg') center/cover no-repeat fixed;
+        background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
+                url('./assets/images/image.jpg') center/cover no-repeat fixed;
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
