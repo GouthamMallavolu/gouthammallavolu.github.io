@@ -121,7 +121,7 @@ section {
 /* Home Section */
 .hero {
   background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
-                url('./assets/images/image.jpg') center/cover no-repeat fixed;
+                url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzJpdWhkZm56cjFrNW9xMzBwa2tucHlmbnRlMWIycnR4aGJtdW0xZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif') center/cover no-repeat fixed;
   /*url('./image.jpg') center/cover no-repeat;*/
   height: 100vh;
   text-align: center;
@@ -342,7 +342,7 @@ footer {
 @media (max-width: 768px) {
     .hero {
         background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
-                url('./assets/images/image.jpg') center/cover no-repeat fixed;
+                url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzJpdWhkZm56cjFrNW9xMzBwa2tucHlmbnRlMWIycnR4aGJtdW0xZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif') center/cover no-repeat fixed;
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
