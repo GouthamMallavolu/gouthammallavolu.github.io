@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-  <head>
+<html lang="en" data-bs-theme="dark">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goutham Portfolio</title>
@@ -11,565 +12,673 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "riga7l6zx4");
-</script>
-  </head>
-  <body>
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "riga7l6zx4");
+    </script>
+</head>
+
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home" style="color: #8ed502;">My Portfolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#home" style="color: #8ed502;">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <div class="custom-toggler" id="customToggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme toggle always visible -->
+            <div class="theme-toggle-container ms-3">
+                <input type="checkbox" id="themeToggle" class="theme-toggle-checkbox">
+                <label for="themeToggle" class="theme-toggle-label">
+                    <span class="toggle-ball"></span>
+                </label>
+            </div>
+            <a href="./assets/Goutham_Mallavolu_Resume.pdf" download class="btn btn-success ms-3">
+                <i class="fas fa-download me-1"></i>
+                <span class="d-none d-md-inline-block">Resume</span>
+            </a>
         </div>
-        <!-- Theme toggle always visible -->
-        <div class="theme-toggle-container ms-3">
-          <input type="checkbox" id="themeToggle" class="theme-toggle-checkbox">
-          <label for="themeToggle" class="theme-toggle-label">
-            <span class="toggle-ball"></span>
-          </label>
-        </div>
-        <a href="./assets/Goutham_Mallavolu_Resume.pdf" download class="btn btn-success ms-3">
-          <i class="fas fa-download me-1"></i>
-          <span class="d-none d-md-inline-block">Resume</span>
-        </a>
-      </div>
     </nav>
     <!-- Home Section -->
     <section id="home" class="hero d-flex align-items-center">
-      <div class="container d-flex justify-content-between align-items-center">
-        <div>
-          <h1 style="color: #b0afad;">Hey There, <br>I am <span class="highlight">Goutham Mallavolu</span>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <h1 style="color: #b0afad;">Hey There, <br>I am <span class="highlight">Goutham Mallavolu</span>
           </h1>
-          <h6 style="color: #b0afad;">
+                <h6 style="color: #b0afad;">
             <i>Aspiring to be AI / ML Professional</i>
           </h6>
-          <br>
-          <h3 class="typing" style="color: #dcdbd9;"></h3>
-          <br>
-          <br>
-          <a href="#projects" class="btn btn-success">View My Work</a> &nbsp;&nbsp; <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <br>
+                <h3 class="typing" style="color: #dcdbd9;"></h3>
+                <br>
+                <br>
+                <a href="#projects" class="btn btn-success">View My Work</a> &nbsp;&nbsp; <a href="#contact" class="btn btn-primary">Hire Me</a>
+            </div>
         </div>
-      </div>
+        <div class="scroll-icon position-absolute bottom-0 start-50 translate-middle-x mb-3">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
     </section>
     <!-- About Section -->
     <section id="about" class="py-5">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <br>
-        <img src="./assets/images/profile.jpg" alt="Profile" class="profile-img rounded-circle">
-        <p class="lead"> I am currently pursuing a Master's degree in Artificial Intelligence, driven by a strong passion for using technology to solve complex and meaningful problems. Throughout my academic journey, I have built a robust foundation in Machine Learning and Deep Neural Networks, and I am continuously inspired by the potential of AI to transform industries and improve lives. From healthcare innovations to advancing environmental sustainability, I am particularly drawn to the ways in which AI can be applied to create lasting, positive impact. <br>
-          <br> My experiences in collaborative research and interdisciplinary projects have deepened my appreciation for both the technical and human-centered aspects of AI development. I take pride in approaching problems with curiosity, creativity, and a commitment to ethical and responsible innovation. Outside of the classroom, I actively engage with the AI community through conferences, workshops, and forums to stay informed about the latest advancements and to connect with like-minded individuals.
-        </p>
-      </div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <br>
+            <img src="./assets/images/profile.jpg" alt="Profile" class="profile-img rounded-circle">
+            <p class="lead"> I am currently pursuing a Master's degree in Artificial Intelligence, driven by a strong passion for using technology to solve complex and meaningful problems. Throughout my academic journey, I have built a robust foundation in Machine Learning
+                and Deep Neural Networks, and I am continuously inspired by the potential of AI to transform industries and improve lives. From healthcare innovations to advancing environmental sustainability, I am particularly drawn to the ways in which
+                AI can be applied to create lasting, positive impact.
+                <br>
+                <br> My experiences in collaborative research and interdisciplinary projects have deepened my appreciation for both the technical and human-centered aspects of AI development. I take pride in approaching problems with curiosity, creativity,
+                and a commitment to ethical and responsible innovation. Outside of the classroom, I actively engage with the AI community through conferences, workshops, and forums to stay informed about the latest advancements and to connect with like-minded
+                individuals.
+            </p>
+        </div>
     </section>
     <!-- skills -->
     <section id="skills">
-      <div class="container">
-        <h2 class="section-title">Technical Expertise</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="skill-card">
-              <h3>Deep Learning</h3>
-              <p class="text-muted">TensorFlow, PyTorch, Keras, CV2</p>
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h3>Deep Learning</h3>
+                        <p class="text-muted">TensorFlow, PyTorch, Keras, CV2</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h3>Machine Learning</h3>
+                        <p class="text-muted">Scikit-Learn, Pandas, NumPy, MatPlotlib, Flask</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h3>Software / API tools</h3>
+                        <p class="text-muted">Jenkins, CI/CD, Bitbucket, Postman, JIRA, Dynatrace, Splunk</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h3>Other Expertise</h3>
+                        <p class="text-muted">Data Preprocessing, Data Modelling, Agile, Debugging, Root Cause Analysis</p>
+                    </div>
+                </div>
+                <!-- Add more skill cards -->
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-card">
-              <h3>Machine Learning</h3>
-              <p class="text-muted">Scikit-Learn, Pandas, NumPy, MatPlotlib, Flask</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-card">
-              <h3>Software / API tools</h3>
-              <p class="text-muted">Jenkins, CI/CD, Bitbucket, Postman, JIRA, Dynatrace, Splunk</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-card">
-              <h3>Other Expertise</h3>
-              <p class="text-muted">Data Preprocessing, Data Modelling, Agile, Debugging, Root Cause Analysis</p>
-            </div>
-          </div>
-          <!-- Add more skill cards -->
         </div>
-      </div>
     </section>
     <!-- Projects Section -->
     <section id="projects" class="py-5">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card project-card">
-              <img src="./assets/images/project1.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Natural Image Deblurring using RNN</h5>
-                <h6 class="modal-title">Technologies used : </h6>
-                <p>
-                  <i>Python, TensorFlow, NumPy, Pandas, Flask</i>
-                </p>
-                <p class="card-text">
-                <ul>
-                  <li>Developed a deblurring solution using deconvolution strategies and RNN with LSTM networks to enhance image quality.</li>
-                  <li>The GOPRO dataset (1029 blurred and 1029 sharp 1280x720 images) for model training.</li>
-                  <li>Applied frequency updating techniques to partially restore sharpness in blurred images.</li>
-                  <li>Focused on improving image clarity through advanced machine learning and image processing techniques.</li>
-                </ul>
-                </p>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
-              </div>
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="./assets/images/project1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Natural Image Deblurring using RNN</h5>
+                            <h6 class="modal-title">Technologies used : </h6>
+                            <p>
+                                <i>Python, TensorFlow, NumPy, Pandas, Flask</i>
+                            </p>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Developed a deblurring solution using deconvolution strategies and RNN with LSTM networks to enhance image quality.</li>
+                                    <li>The GOPRO dataset (1029 blurred and 1029 sharp 1280x720 images) for model training.</li>
+                                    <li>Applied frequency updating techniques to partially restore sharpness in blurred images.</li>
+                                    <li>Focused on improving image clarity through advanced machine learning and image processing techniques.</li>
+                                </ul>
+                            </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="./assets/images/project2.jpg" class="card-img-top" alt="">
+                        <img src="./assets/images/project2-1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Real time age detection using CNN</h5>
+                            <h6 class="modal-title">Technologies used : </h6>
+                            <p>
+                                <i>Python, TensorFlow, Computer Vision(CV2), NumPy, Matplotlib</i>
+                            </p>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Designed and developed a facial age estimation system using advanced computer vision and machine learning techniques.</li>
+                                    <li>Utilized pre-trained Caffe models, specifically trained on the UTKFace dataset, to analyze facial features for accurate age prediction.</li>
+                                    <li>Employed deep learning models, particularly Convolutional Neural Networks (CNNs), to process and interpret facial images with high precision.</li>
+                                    <li>Integrated data visualization functionality to display age prediction results in the form of pie charts, providing a clear representation of age distribution.</li>
+                                </ul>
+                            </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card">
+                        <img src="./assets/images/project3.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">AI Travel Planning Assistant</h5>
+                            <h6 class="modal-title">Gen AI Capabilities : </h6>
+                            <p>
+                                <i>Structured output/JSON mode/controlled generation, Few-shot prompting, Image understanding, Function Calling, Long context window, Retrieval augmented generation (RAG)</i>
+                            </p>
+                            <p class="card-text"> This assistant, powered by Gemini-2.0-flash and few-shot prompting, collects just the essentials and handles the rest:
+                                <br>
+                                <ul>
+                                    <li>Departure city</li>
+                                    <li>Image of the destination</li>
+                                    <li>Travel dates and number of days</li>
+                                    <li>Budget</li>
+                                    <li>Interests (e.g., adventure, relaxation, culture)</li>
+                                </ul>
+                                <br> With this info, the AI creates a full itinerary in structured <b>JSON</b> format perfect for app or website integration. </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card project-card">
-              <img src="./assets/images/project2.jpg" class="card-img-top" alt="">
-              <img src="./assets/images/project2-1.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Real time age detection using CNN</h5>
-                <h6 class="modal-title">Technologies used : </h6>
-                <p>
-                  <i>Python, TensorFlow, Computer Vision(CV2), NumPy, Matplotlib</i>
-                </p>
-                <p class="card-text">
-                <ul>
-                  <li>Designed and developed a facial age estimation system using advanced computer vision and machine learning techniques.</li>
-                  <li>Utilized pre-trained Caffe models, specifically trained on the UTKFace dataset, to analyze facial features for accurate age prediction.</li>
-                  <li>Employed deep learning models, particularly Convolutional Neural Networks (CNNs), to process and interpret facial images with high precision.</li>
-                  <li>Integrated data visualization functionality to display age prediction results in the form of pie charts, providing a clear representation of age distribution.</li>
-                </ul>
-                </p>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Learn More</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card project-card">
-              <img src="./assets/images/project3.png" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">AI Travel Planning Assistant</h5>
-                <h6 class="modal-title">Gen AI Capabilities : </h6>
-                <p>
-                  <i>Structured output/JSON mode/controlled generation, Few-shot prompting, Image understanding, Function Calling, Long context window, Retrieval augmented generation (RAG)</i>
-                </p>
-                <p class="card-text"> This assistant, powered by Gemini-2.0-flash and few-shot prompting, collects just the essentials and handles the rest: <br>
-                <ul>
-                  <li>Departure city</li>
-                  <li>Image of the destination</li>
-                  <li>Travel dates and number of days</li>
-                  <li>Budget</li>
-                  <li>Interests (e.g., adventure, relaxation, culture)</li>
-                </ul>
-                <br> With this info, the AI creates a full itinerary in structured <b>JSON</b> format perfect for app or website integration. </p>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Learn More</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="modal1" tabindex="-1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Natural Image Deblurring using RNN</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Natural Image Deblurring using RNN</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/project1.jpg" class="img-fluid mb-3" alt="">
+                        <p> Image is a basic input for many machine learning-based algorithms, as the majority of the algorithms processed on image data. In nowadays world the data of the image is increasing rapidly. Image deconvolution is used in many applications
+                            like intelligent systems to trace the culprits or to retrieve highly secret information. It is also used in astronomical observations, where the observations mainly focus on the study of extra-terrestrial life and study planets.
+                            These scientists need sharp images to study so. They use image deconvolution algorithms. Image's deconvolution is also used in biomedical used to detect the disease of the patient. Image deblurring occurs due to many reasons,
+                            mainly due to camera shake, some noise, not focused properly and many more. In this case, we cannot retake the picture again as it has already happened, which we can't change, this blurred image can contain important information,
+                            or it is a picture of loved ones. So in order to retrieve such information from the image, we used a deconvolution strategy to update the frequencies in the pixels of an image, such that blurred manage is deblurred not entirely
+                            but to some extent.
+                            <br>
+                            <br> Today, when looking around, the imaginative advances recently have been gigantic. As seen in driverless vehicles, sans hands contraptions that can turn on the lights, and robots are working in handling plants, which show that
+                            shrewd machines are possible. Preposterous late four years in the Indian startup climate, the terms that were used (handled to some degree) more than sponsoring, valuation, and exit were human-made thinking (PC based insight)
+                            and computer-based intelligence (ML). Furthermore, saw monetary patrons expeditiously setting in their money in fire up's that indirectly used or purported to use these emerging advancements. From deep tech, online business,
+                            fintech, and conversational chatbots to flexibility, food tech, and clinical benefits, re-enacted insight and ML have changed. The business has immediately moved from mentioning engineers to deal with tons from code to the
+                            machine to getting terabytes of data and crunching it to collect significant reasoning. All through the long haul, development has changed our existence and consistently lives. Development had made amazing devices and resources
+                            for humankind, putting important information which has promptly been accessible. Current improvements in technology have arranged for many multi-utilitarian-based contraptions like a smartwatch and the phone. Computers are
+                            logically faster, more minimal, and more impressive than at some other time. With these miracles, development has moreover simplified our lives faster, better, and more fun. Moreover, in order to build the required models for
+                            real-world based applications, there are an enormous set of libraries in a programming language like python. These libraries are specially built for models or an algorithm to solve real-world problems. There are so many changes
+                            in the functionality of a programming language in the last ten to fifteen years.
+                            <br>
+                            <br> The above flowchart is the basic pipeline for this project. At first, the basic task is to import the required package. May include necessary packages or modules to use the existing module, which are already in-built in the
+                            language in this mainly use TensorFlow, which is a system backend usable module which is majorly used for image processing and remaining applications that majorly need a high amount of hardware equipment and power to process
+                            the input and many modules used in this project, namely argparse, UUID, base64, cv2 and many more, are image processing modules in python. Then the warnings have to be ignored for the smooth run of the project. For this, use
+                            the warnings module, which is already existed in the python language. This basically checks for the hardware requirement for the model implementation. As already said, this image processing uses system backend or kernel access
+                            of the system. TensorFlow is developed by Google for the fast and robust image processing technology specially created for python. So, for the hardware, the system must need GPU (graphical processing unit) inbuilt in the system.
+                            NVIDIA or AMD the tycoons of the GPU industry. For this project, if the system has NVIDIA GPU, it must be CUDA enabled or else the power of the system is not sufficient for the processing of an image. After importing the libraries,
+                            the next step is to create the necessary folders to save or retrieve the data from that folders. For this, use the OS module, which was designed to move freely between directories or from directories to sub-directories, even
+                            sub-sub-directories of the particular folder. This majorly works on the root directory. For this project, it needs some folders in order to store the input image and to store the output image. By using the OS module, create
+                            many directories like templates for storing HTML files, static for CSS and JS files for the HTML file, images folder to store the images, uploads folder to store output images which are deblurred by the model. Checkpoint's
+                            folder to save the checkpoints of the model where it can be used directly without training the model each and every time. After completing the creation of folders or directories, the next step is to take the input from the
+                            web application, which is already created by using a flask. Flask is a web application program just as react and angular js in java, flask used to run the program in the web browser as the server-side application just as apache
+                            tomcat server. The main reason for using flask is it is a lightweight application compared to the Django framework, which is similar to angular, which is a complete server-side application framework more complicated than a
+                            flask. In this project, the flask application is built with HTML and CSS, which are web-based programming languages. In this user can give the image as input by selecting the required image from the system documents.
+                            <br> But before giving input, the flask application takes a port number as the source to run the application, and then this port number need to be pasted on the browser URL search bar, then the project successfully runs in the
+                            web browser it doesn't contain any errors. Then it shows an HTML page on the browser, which is stored in the templates folder. As soon as the image is selected, then the image needs to be cropped (i.e., need to select some
+                            part of the image which want to be deblurred). The main reason for this is model is only trained with specific dimensions (i.e., x-height and x width). Since image sizes vary from each other, it is highly important to crop
+                            the image in order to get the best accuracy deblurred image. If the input size doesn't match the training set of the model, then the model doesn't deblur the image properly or doesn't deblur the image. As the user presses the
+                            crop button, which is already created in the HTML document, then the cropped image is directly stored in the cropped folder, which is stored in the uploads directory acts as a root directory. Then the cropped image is passed
+                            through the encoder as the image need to be feed to the nodes of the neural network. But, before encoding, the image needs to be taken as raw input where NumPy concept comes into the picture. As the image is encoded, it is
+                            passed through the convolution layer of the neural network. Encoder and decoder networks are nothing but the structures of symmetric CNN. In which the input image is converted or divided to feature maps and feed to the model
+                            and in a similar decoder manner as encoder but in opposite where the deblurred feature maps are converted back to the image in order to display. Basically, encoding contains convolution layers with strides and activation layers
+                            Tanh activation and whereas, in a decoder, it contains deconvolution layers for resizing the image. As the image is encoded, the image is saved with hexadecimal name with a .png extension and with a unique id is also given
+                            such that no two images have the same name and stored in the text file, the saving is important to track exactly what output got for which input.
+                            <br> Then after completing the encoding process, the image is passed to a different set of nodes as the neural network use for this Project is RNN. So, it has a backtracking ability and a memory storage capacity in order to remove
+                            the vanishing gradient problem. The feature maps of the image will be deblurred parallelly, and the frequencies of the pixels are updated based on the blur on the image pixels. Then, these updated feature maps are combined
+                            in the decoding process, which has deconvolution layers to resize the image to the actual size of the input image. After adjusting the frequencies of the feature maps then the restored image is saved with the same unique id
+                            of the input image in the finished folder in uploads. Then this image which is stored in the finished folder, is retrieved and displayed on the web pages where it can be visible to the user. This is the entire flowchart for
+                            the project natural image deblurring via ringing artefacts.
+                            <hr>
+                            <h4>References</h4>
+                            <ul>
+                                <li>S. Sun, H. Zhao, B. Li, and M. Yang, ``Kernel estimation for robust motion deblurring of noisy and blurry images,'' J. Electron. Imag., vol. 25, no. 3, pp. 112, 2016.</li>
+                                <li>J. Pan, D. Sun, H. Peter, and M.-H. Yang, ``Blind image deblurring using dark channel prior,'' in Proc. IEEE Conf. Comput. Vis. Pattern Recognit.(CVPR), Jun. 2016, pp. 16281636.</li>
+                                <li>X. Xu, J. Pan, Y.-J. Zhang, and M.-H. Yang, ``Motion blur kernel estimation via deep learning,'' IEEE Trans. Image Process., vol. 27, no. 1, pp. 194205, Jan. 2018.</li>
+                                <li>O. Kupyn, V. Budzan, M. Mykhailych, D. Mishkin, and J. Matas, ``Deblur-GAN: Blind motion deblurring using conditional adversarial networks,'' in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Jun. 2018, pp. 81838192.</li>
+                                <li>D. Wu, H. Zhao, and S. Zheng, ``Motion deblurring method based onDenseNets,'' J. Image Graph., vol. 25, no. 5, pp. 890899, 2020.</li>
+                                <li>J. Pan, D. Sun, H. Peter, and M.-H. Yang, ``Deblurring images via dark channel prior,'' IEEE Trans. Pattern Anal. Mach. Intell., vol. 40, no. 10, pp. 23152328, Oct. 2018.</li>
+                                <li>https://aditi-mittal.medium.com/understanding-rnn-and-lstm-f7cdf6dfc14e</li>
+                                <li>https://en.wikipedia.org/wiki/Deblurring</li>
+                                <li>https://en.wikipedia.org/wiki/Deconvolution</li>
+                                <li>http://gwyddion.net/documentation/user-guide-en/convolution-deconvolution.html</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <img src="./assets/images/project1.jpg" class="img-fluid mb-3" alt="">
-              <p> Image is a basic input for many machine learning-based algorithms, as the majority of the algorithms processed on image data. In nowadays world the data of the image is increasing rapidly. Image deconvolution is used in many applications like intelligent systems to trace the culprits or to retrieve highly secret information. It is also used in astronomical observations, where the observations mainly focus on the study of extra-terrestrial life and study planets. These scientists need sharp images to study so. They use image deconvolution algorithms. Image's deconvolution is also used in biomedical used to detect the disease of the patient. Image deblurring occurs due to many reasons, mainly due to camera shake, some noise, not focused properly and many more. In this case, we cannot retake the picture again as it has already happened, which we can't change, this blurred image can contain important information, or it is a picture of loved ones. So in order to retrieve such information from the image, we used a deconvolution strategy to update the frequencies in the pixels of an image, such that blurred manage is deblurred not entirely but to some extent. <br>
-                <br> Today, when looking around, the imaginative advances recently have been gigantic. As seen in driverless vehicles, sans hands contraptions that can turn on the lights, and robots are working in handling plants, which show that shrewd machines are possible. Preposterous late four years in the Indian startup climate, the terms that were used (handled to some degree) more than sponsoring, valuation, and exit were human-made thinking (PC based insight) and computer-based intelligence (ML). Furthermore, saw monetary patrons expeditiously setting in their money in fire up's that indirectly used or purported to use these emerging advancements. From deep tech, online business, fintech, and conversational chatbots to flexibility, food tech, and clinical benefits, re-enacted insight and ML have changed. The business has immediately moved from mentioning engineers to deal with tons from code to the machine to getting terabytes of data and crunching it to collect significant reasoning. All through the long haul, development has changed our existence and consistently lives. Development had made amazing devices and resources for humankind, putting important information which has promptly been accessible. Current improvements in technology have arranged for many multi-utilitarian-based contraptions like a smartwatch and the phone. Computers are logically faster, more minimal, and more impressive than at some other time. With these miracles, development has moreover simplified our lives faster, better, and more fun. Moreover, in order to build the required models for real-world based applications, there are an enormous set of libraries in a programming language like python. These libraries are specially built for models or an algorithm to solve real-world problems. There are so many changes in the functionality of a programming language in the last ten to fifteen years. <br>
-                <br> The above flowchart is the basic pipeline for this project. At first, the basic task is to import the required package. May include necessary packages or modules to use the existing module, which are already in-built in the language in this mainly use TensorFlow, which is a system backend usable module which is majorly used for image processing and remaining applications that majorly need a high amount of hardware equipment and power to process the input and many modules used in this project, namely argparse, UUID, base64, cv2 and many more, are image processing modules in python. Then the warnings have to be ignored for the smooth run of the project. For this, use the warnings module, which is already existed in the python language. This basically checks for the hardware requirement for the model implementation. As already said, this image processing uses system backend or kernel access of the system. TensorFlow is developed by Google for the fast and robust image processing technology specially created for python. So, for the hardware, the system must need GPU (graphical processing unit) inbuilt in the system. NVIDIA or AMD the tycoons of the GPU industry. For this project, if the system has NVIDIA GPU, it must be CUDA enabled or else the power of the system is not sufficient for the processing of an image. After importing the libraries, the next step is to create the necessary folders to save or retrieve the data from that folders. For this, use the OS module, which was designed to move freely between directories or from directories to sub-directories, even sub-sub-directories of the particular folder. This majorly works on the root directory. For this project, it needs some folders in order to store the input image and to store the output image. By using the OS module, create many directories like templates for storing HTML files, static for CSS and JS files for the HTML file, images folder to store the images, uploads folder to store output images which are deblurred by the model. Checkpoint's folder to save the checkpoints of the model where it can be used directly without training the model each and every time. After completing the creation of folders or directories, the next step is to take the input from the web application, which is already created by using a flask. Flask is a web application program just as react and angular js in java, flask used to run the program in the web browser as the server-side application just as apache tomcat server. The main reason for using flask is it is a lightweight application compared to the Django framework, which is similar to angular, which is a complete server-side application framework more complicated than a flask. In this project, the flask application is built with HTML and CSS, which are web-based programming languages. In this user can give the image as input by selecting the required image from the system documents. <br> But before giving input, the flask application takes a port number as the source to run the application, and then this port number need to be pasted on the browser URL search bar, then the project successfully runs in the web browser it doesn't contain any errors. Then it shows an HTML page on the browser, which is stored in the templates folder. As soon as the image is selected, then the image needs to be cropped (i.e., need to select some part of the image which want to be deblurred). The main reason for this is model is only trained with specific dimensions (i.e., x-height and x width). Since image sizes vary from each other, it is highly important to crop the image in order to get the best accuracy deblurred image. If the input size doesn't match the training set of the model, then the model doesn't deblur the image properly or doesn't deblur the image. As the user presses the crop button, which is already created in the HTML document, then the cropped image is directly stored in the cropped folder, which is stored in the uploads directory acts as a root directory. Then the cropped image is passed through the encoder as the image need to be feed to the nodes of the neural network. But, before encoding, the image needs to be taken as raw input where NumPy concept comes into the picture. As the image is encoded, it is passed through the convolution layer of the neural network. Encoder and decoder networks are nothing but the structures of symmetric CNN. In which the input image is converted or divided to feature maps and feed to the model and in a similar decoder manner as encoder but in opposite where the deblurred feature maps are converted back to the image in order to display. Basically, encoding contains convolution layers with strides and activation layers Tanh activation and whereas, in a decoder, it contains deconvolution layers for resizing the image. As the image is encoded, the image is saved with hexadecimal name with a .png extension and with a unique id is also given such that no two images have the same name and stored in the text file, the saving is important to track exactly what output got for which input. <br> Then after completing the encoding process, the image is passed to a different set of nodes as the neural network use for this Project is RNN. So, it has a backtracking ability and a memory storage capacity in order to remove the vanishing gradient problem. The feature maps of the image will be deblurred parallelly, and the frequencies of the pixels are updated based on the blur on the image pixels. Then, these updated feature maps are combined in the decoding process, which has deconvolution layers to resize the image to the actual size of the input image. After adjusting the frequencies of the feature maps then the restored image is saved with the same unique id of the input image in the finished folder in uploads. Then this image which is stored in the finished folder, is retrieved and displayed on the web pages where it can be visible to the user. This is the entire flowchart for the project natural image deblurring via ringing artefacts.
-                <hr>
-              <h4>References</h4>
-              <ul>
-                <li>S. Sun, H. Zhao, B. Li, and M. Yang, ``Kernel estimation for robust motion deblurring of noisy and blurry images,'' J. Electron. Imag., vol. 25, no. 3, pp. 112, 2016.</li>
-                <li>J. Pan, D. Sun, H. Peter, and M.-H. Yang, ``Blind image deblurring using dark channel prior,'' in Proc. IEEE Conf. Comput. Vis. Pattern Recognit.(CVPR), Jun. 2016, pp. 16281636.</li>
-                <li>X. Xu, J. Pan, Y.-J. Zhang, and M.-H. Yang, ``Motion blur kernel estimation via deep learning,'' IEEE Trans. Image Process., vol. 27, no. 1, pp. 194205, Jan. 2018.</li>
-                <li>O. Kupyn, V. Budzan, M. Mykhailych, D. Mishkin, and J. Matas, ``Deblur-GAN: Blind motion deblurring using conditional adversarial networks,'' in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Jun. 2018, pp. 81838192.</li>
-                <li>D. Wu, H. Zhao, and S. Zheng, ``Motion deblurring method based onDenseNets,'' J. Image Graph., vol. 25, no. 5, pp. 890899, 2020.</li>
-                <li>J. Pan, D. Sun, H. Peter, and M.-H. Yang, ``Deblurring images via dark channel prior,'' IEEE Trans. Pattern Anal. Mach. Intell., vol. 40, no. 10, pp. 23152328, Oct. 2018.</li>
-                <li>https://aditi-mittal.medium.com/understanding-rnn-and-lstm-f7cdf6dfc14e</li>
-                <li>https://en.wikipedia.org/wiki/Deblurring</li>
-                <li>https://en.wikipedia.org/wiki/Deconvolution</li>
-                <li>http://gwyddion.net/documentation/user-guide-en/convolution-deconvolution.html</li>
-              </ul>
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="modal fade" id="modal2" tabindex="-1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Real time age detection using CNN</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal fade" id="modal2" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Real time age detection using CNN</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/project2.jpg" class="img-fluid mb-3" alt="">
+                        <img src="./assets/images/project2-1.jpg" class="img-fluid mb-3" alt="">
+                        <img src="./assets/images/project2-2.jpg" class="img-fluid mb-3" alt="">
+                        <p> Age is one of the most important attributes in one user’s profile. Age detection has many applications like personalized search, targeted advertisement and recommendation. The detection is the technique in which various factors
+                            are recognized on the basis of input and according to requirements. The age is the issue which take consideration of researchers from last few years. In the topic on age various techniques has been proposed to analysis features
+                            of the input image and on the basis of image features gender and approximation of age is defined. The problem of determining people’s age is a recurring theme in areas such as law enforcement, education and sports because age
+                            is often used to determine eligibility. The aim of current work is to make use of a lightweight machine learning model for automating the task of detecting people’s age. This paper presents a solution that makes use of a lightweight
+                            Convolutional Neural Network model, built according to a modification of the LeNet-5 architecture to perform age detection, for both males and females, in real-time. The UTK-Face Large Scale Face Dataset was used to train and
+                            test the performance of the model in terms of predicting age. To evaluate the model’s performance in realtime, Haar Cascades were used to detect faces from video feeds. The detected faces were fed to the model for it to make
+                            age predictions. Experimental results showed that age detection can be performed in real-time. Although, the prediction accuracy of the model requires improvement.
+                            <br>
+                            <br> Today, when we look around, the technological advances in recent years have been immense. We can see driverless cars, hands-free devices that can turn on the lights, and robots working in factories, which prove that intelligent
+                            machines are possible. In the last four years in the Indian start-up ecosystem, the terms that were used (overused rather) more than funding, valuation, and exit were artificial intelligence (AI) and machine learning (ML).
+                            We also saw investors readily putting in their money in start-up’s that remotely used or claimed to use these emerging technologies. From deeptech, ecommerce, fintech, and conversational chatbots to mobility, foodtech, and
+                            healthcare, AI and ML have transformed. The industry has swiftly moved from asking programmers to feed tonnes of code to the machine to acquiring terabytes of data and crunching it to build relevant logic. Over the years, technology
+                            has revolutionized our world and daily lives. Technology has created amazing tools and resources, putting useful information at our fingertips. Modern technology has paved the way for multi-functional devices like the smartwatch
+                            and the smartphone. Computers are increasingly faster, more portable, and higher-powered than ever before. With all of these revolutions, technology has also made our lives easier, faster, better, and more fun. We also have
+                            good number of resources to work on these AI and ML projects, there are huge number of libraries developed by many organisations. Python is most used language these days and its usage has been growing since last 5 years. This
+                            programming language is known for its simplicity and the number of libraries it offers to user are simply amazing. Some of the libraries are named below:
+                            <ul>
+                                <li>
+                                    <b>TensorFlow library:</b> This library is used to work with Ai and ML models, it offers a bunch of tools and utilities. It is developed by Google.
+                                </li>
+                                <li>
+                                    <b>Pytorch library:</b> This library is also most popular one and offers huge number of methods to work on AI and ML projects. It is developed by Facebook’s AI Research Lab.
+                                </li>
+                            </ul> These days many tasks performed by humans are being carried out by machines and robots. Artificial intelligence and machine learning, deep learning have become buzz words recently in the technology sector.
+                            <br>
+                            <br> By this we conclude that, a modified LeNet-5 CNN was trained to perform age detection across a wide variety of people of different gender and ethnicity in real-time. The real-time component of the solution worked efficiently.
+                            The CNN had an overall accuracy score of 45.3%. However, when considering 1-off predictions the estimated accuracy was 83%. Future work should focus on applying techniques such as batch normalization and data augmentation -
+                            while keeping the size of the CNN relatively small – to help the CNN learn to generalize better. Architectures such as AlexNet or VGG16 should be deployed to compare results and to assess their performance in real-time settings,
+                            since both architectures are larger in size than the LeNet-5 architecture. More improvements can be made by implementing an imbalanced training scheme so that the whole dataset can be used. Finally, more work should be done
+                            with regards to feature extraction in order to highlight more important facial landmarks related to agin
+                            <hr>
+                            <h4>References</h4>
+                            <ul>
+                                <li>1. Codella, N.C.F., Lin, C.-C., Halpern, A., Hind, M., Feris, R., Smith, J.R.: CollaborativeHuman-AI (CHAI): evidence-based interpretable melanoma classification in dermoscopic images. In: Stoyanov, D., et al. (eds.) MLCN/DLF/IMIMIC
+                                    -2018. LNCS, vol. 11038, pp. 97–105. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-02628-8_11</li>
+                                <li>2. Dodge, S., Karam, L.: A Study and Comparison of Human and Deep Learning RecognitionPerformance Under Visual Distortions (2017)</li>
+                                <li>3. Bianco, S.: Large Age-Gap face verification by feature injection in deep networks. Pattern Recogn. Lett. 90, 36–42 (2016)</li>
+                                <li>4. Howard, A.G., et al.: MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. Comput. Res. Repository 1704(04861) (2017)</li>
+                                <li>5. Chen, L., Qian, T., Wang, F., You, Z., Peng, Q., Zhong, M.: Age detection for chinese usersin Eeibo. In: Dong, X.L., Yu, X., Li, J., Sun, Y. (eds.) WAIM 2015. LNCS, vol. 9098, pp. 83–95. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-21042-
+                                    1_7</li>
+                                <li>6. Bae, I.-H.: A rough set based anomaly detection scheme considering the age of user profiles. In: Shi, Y., van Albada, G.D., Dongarra, J., Sloot, P.M.A. (eds.) ICCS 2007. LNCS, vol. 4490, pp. 558–561. Springer, Heidelberg
+                                    (2007). https://doi.org/10.1007/978-3-540-725909_78</li>
+                                <li>7. Wu, Y., Li, J., Kong, Y., Fu, Y.: Deep convolutional neural network with independentsoftmax for large scale face recognition. In: Proceedings of the 24th ACM International Conference on Multimedia, New York (2016)</li>
+                                <li>8. Ayyadevara, V.K.: Convolutional neural network. In: Pro Machine Learning Algorithms: AHands-On Approach to Implementing Algorithms in Python and R, pp. 179–215. Apress, Berkely (2018)</li>
+                                <li>9. Wang, H., Wei, X., Sanchez, V., Li, C.: Fusion network for face-based age estimation. In: 2018 25th IEEE International Conference on Image Processing (ICIP) (2018)</li>
+                                <li>10. Aydogdu, M.F., Demirci, M.F.: Age Classification using an optimized CNN architecture. In: Proceedings of the International Conference on Compute and Data Analysis, Lakeland (2017)</li>
+                                <li>11. Cho, J.H., Jang, D., Park, R.: Age category estimation using matching convolutional neuralnetwork. In: 2018 IEEE International Conference on Consumer Electronics (ICCE) (2018)</li>
+                                <li>12. LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.: Gradient-based learning applied to documentrecognition. Proc. IEEE 86, 2278–2324 (2018)</li>
+                                <li>13. Pham, V.H., Dinh, P.Q., Nguyen, V.H.: CNN-based character recognition for license platerecognition system. In: Nguyen, N.T., Hoang, D.H., Hong, T.-P., Pham, H., Trawiński, B. (eds.) ACIIDS 2018. LNCS (LNAI), vol. 10752,
+                                    pp. 594–603. Springer, Cham (2018). https://doi.org/10.1007/978-3-319-75420-8_56</li>
+                                <li>14. LeCun, Y., Haffner, P., Bottou, L., Bengio, Y.: Object recognition with gradientbasedlearning. Shape, Contour and Grouping in Computer Vision. LNCS, vol. 1681, pp. 319–345. Springer, Heidelberg (1999). https://doi.org/10.1007/3-540-46805-6_19</li>
+                                <li>15. Ma, M., Gao, Z., Wu, J., Chen, Y., Zheng, X.: A smile detection method based on improvedLeNet-5 and support vector machine. In: 2018 IEEE Smartworld, Ubiquitous Intelligence Computing, Advanced Trusted Computing, Scalable
+                                    Computing Communications, Cloud Big Data Computing, Internet of People and Smart City Innovation (2018)</li>
+                                <li>16. Zhang, Z., Song, Y., Qi, H.: Age Progression/Regression by Conditional AdversarialAutoencoder. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017)</li>
+                                <li>17. Y. Guo, Y. Liu, A. Oerlemans, S. Lao, S. Wu, and M. S. Lew, “Deep learning for visual understanding: A review,” Neurocomputing, vol. 187, pp. 27–48, 2016.</li>
+                                <li>18. J. Gu et al., “Recent advances in convolutional neural networks,” Pattern Recognit., vol. 77, pp. 354–377, 2018.</li>
+                                <li>19. A. R. Abbas, “Intelligent Age Estimation From Facial Images Using Machine Learning Techniques,” Iraqi J. Sci., vol. 59, no. 2A, 2018.</li>
+                                <li>20. Z. Qawaqneh, A. A. Mallouh, and B. D. Barkana, “Deep Convolutional Neural Network for Age Estimation based on VGG-Face Model,” no. 1, 2017.</li>
+                                <br>
+                                <b>Websites referred:</b>
+                                <br>
+                                <li>1. https://www.frontiersin.org/articles/10.3389/fbioe.2020.00080/full</li>
+                                <li>2. https://www.learnopencv.com/tag/age-prediction/</li>
+                                <li>3. https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <img src="./assets/images/project2.jpg" class="img-fluid mb-3" alt="">
-              <img src="./assets/images/project2-1.jpg" class="img-fluid mb-3" alt="">
-              <img src="./assets/images/project2-2.jpg" class="img-fluid mb-3" alt="">
-              <p> Age is one of the most important attributes in one user’s profile. Age detection has many applications like personalized search, targeted advertisement and recommendation. The detection is the technique in which various factors are recognized on the basis of input and according to requirements. The age is the issue which take consideration of researchers from last few years. In the topic on age various techniques has been proposed to analysis features of the input image and on the basis of image features gender and approximation of age is defined. The problem of determining people’s age is a recurring theme in areas such as law enforcement, education and sports because age is often used to determine eligibility. The aim of current work is to make use of a lightweight machine learning model for automating the task of detecting people’s age. This paper presents a solution that makes use of a lightweight Convolutional Neural Network model, built according to a modification of the LeNet-5 architecture to perform age detection, for both males and females, in real-time. The UTK-Face Large Scale Face Dataset was used to train and test the performance of the model in terms of predicting age. To evaluate the model’s performance in realtime, Haar Cascades were used to detect faces from video feeds. The detected faces were fed to the model for it to make age predictions. Experimental results showed that age detection can be performed in real-time. Although, the prediction accuracy of the model requires improvement. <br>
-                <br> Today, when we look around, the technological advances in recent years have been immense. We can see driverless cars, hands-free devices that can turn on the lights, and robots working in factories, which prove that intelligent machines are possible. In the last four years in the Indian start-up ecosystem, the terms that were used (overused rather) more than funding, valuation, and exit were artificial intelligence (AI) and machine learning (ML). We also saw investors readily putting in their money in start-up’s that remotely used or claimed to use these emerging technologies. From deeptech, ecommerce, fintech, and conversational chatbots to mobility, foodtech, and healthcare, AI and ML have transformed. The industry has swiftly moved from asking programmers to feed tonnes of code to the machine to acquiring terabytes of data and crunching it to build relevant logic. Over the years, technology has revolutionized our world and daily lives. Technology has created amazing tools and resources, putting useful information at our fingertips. Modern technology has paved the way for multi-functional devices like the smartwatch and the smartphone. Computers are increasingly faster, more portable, and higher-powered than ever before. With all of these revolutions, technology has also made our lives easier, faster, better, and more fun. We also have good number of resources to work on these AI and ML projects, there are huge number of libraries developed by many organisations. Python is most used language these days and its usage has been growing since last 5 years. This programming language is known for its simplicity and the number of libraries it offers to user are simply amazing. Some of the libraries are named below:
-              <ul>
-                <li>
-                  <b>TensorFlow library:</b> This library is used to work with Ai and ML models, it offers a bunch of tools and utilities. It is developed by Google.
-                </li>
-                <li>
-                  <b>Pytorch library:</b> This library is also most popular one and offers huge number of methods to work on AI and ML projects. It is developed by Facebook’s AI Research Lab.
-                </li>
-              </ul> These days many tasks performed by humans are being carried out by machines and robots. Artificial intelligence and machine learning, deep learning have become buzz words recently in the technology sector. <br>
-              <br> By this we conclude that, a modified LeNet-5 CNN was trained to perform age detection across a wide variety of people of different gender and ethnicity in real-time. The real-time component of the solution worked efficiently. The CNN had an overall accuracy score of 45.3%. However, when considering 1-off predictions the estimated accuracy was 83%. Future work should focus on applying techniques such as batch normalization and data augmentation - while keeping the size of the CNN relatively small – to help the CNN learn to generalize better. Architectures such as AlexNet or VGG16 should be deployed to compare results and to assess their performance in real-time settings, since both architectures are larger in size than the LeNet-5 architecture. More improvements can be made by implementing an imbalanced training scheme so that the whole dataset can be used. Finally, more work should be done with regards to feature extraction in order to highlight more important facial landmarks related to agin
-              <hr>
-              <h4>References</h4>
-              <ul>
-                <li>1. Codella, N.C.F., Lin, C.-C., Halpern, A., Hind, M., Feris, R., Smith, J.R.: CollaborativeHuman-AI (CHAI): evidence-based interpretable melanoma classification in dermoscopic images. In: Stoyanov, D., et al. (eds.) MLCN/DLF/IMIMIC -2018. LNCS, vol. 11038, pp. 97–105. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-02628-8_11</li>
-                <li>2. Dodge, S., Karam, L.: A Study and Comparison of Human and Deep Learning RecognitionPerformance Under Visual Distortions (2017)</li>
-                <li>3. Bianco, S.: Large Age-Gap face verification by feature injection in deep networks. Pattern Recogn. Lett. 90, 36–42 (2016)</li>
-                <li>4. Howard, A.G., et al.: MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. Comput. Res. Repository 1704(04861) (2017)</li>
-                <li>5. Chen, L., Qian, T., Wang, F., You, Z., Peng, Q., Zhong, M.: Age detection for chinese usersin Eeibo. In: Dong, X.L., Yu, X., Li, J., Sun, Y. (eds.) WAIM 2015. LNCS, vol. 9098, pp. 83–95. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-21042- 1_7</li>
-                <li>6. Bae, I.-H.: A rough set based anomaly detection scheme considering the age of user profiles. In: Shi, Y., van Albada, G.D., Dongarra, J., Sloot, P.M.A. (eds.) ICCS 2007. LNCS, vol. 4490, pp. 558–561. Springer, Heidelberg (2007). https://doi.org/10.1007/978-3-540-725909_78</li>
-                <li>7. Wu, Y., Li, J., Kong, Y., Fu, Y.: Deep convolutional neural network with independentsoftmax for large scale face recognition. In: Proceedings of the 24th ACM International Conference on Multimedia, New York (2016)</li>
-                <li>8. Ayyadevara, V.K.: Convolutional neural network. In: Pro Machine Learning Algorithms: AHands-On Approach to Implementing Algorithms in Python and R, pp. 179–215. Apress, Berkely (2018)</li>
-                <li>9. Wang, H., Wei, X., Sanchez, V., Li, C.: Fusion network for face-based age estimation. In: 2018 25th IEEE International Conference on Image Processing (ICIP) (2018)</li>
-                <li>10. Aydogdu, M.F., Demirci, M.F.: Age Classification using an optimized CNN architecture. In: Proceedings of the International Conference on Compute and Data Analysis, Lakeland (2017)</li>
-                <li>11. Cho, J.H., Jang, D., Park, R.: Age category estimation using matching convolutional neuralnetwork. In: 2018 IEEE International Conference on Consumer Electronics (ICCE) (2018)</li>
-                <li>12. LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.: Gradient-based learning applied to documentrecognition. Proc. IEEE 86, 2278–2324 (2018)</li>
-                <li>13. Pham, V.H., Dinh, P.Q., Nguyen, V.H.: CNN-based character recognition for license platerecognition system. In: Nguyen, N.T., Hoang, D.H., Hong, T.-P., Pham, H., Trawiński, B. (eds.) ACIIDS 2018. LNCS (LNAI), vol. 10752, pp. 594–603. Springer, Cham (2018). https://doi.org/10.1007/978-3-319-75420-8_56</li>
-                <li>14. LeCun, Y., Haffner, P., Bottou, L., Bengio, Y.: Object recognition with gradientbasedlearning. Shape, Contour and Grouping in Computer Vision. LNCS, vol. 1681, pp. 319–345. Springer, Heidelberg (1999). https://doi.org/10.1007/3-540-46805-6_19</li>
-                <li>15. Ma, M., Gao, Z., Wu, J., Chen, Y., Zheng, X.: A smile detection method based on improvedLeNet-5 and support vector machine. In: 2018 IEEE Smartworld, Ubiquitous Intelligence Computing, Advanced Trusted Computing, Scalable Computing Communications, Cloud Big Data Computing, Internet of People and Smart City Innovation (2018)</li>
-                <li>16. Zhang, Z., Song, Y., Qi, H.: Age Progression/Regression by Conditional AdversarialAutoencoder. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017)</li>
-                <li>17. Y. Guo, Y. Liu, A. Oerlemans, S. Lao, S. Wu, and M. S. Lew, “Deep learning for visual understanding: A review,” Neurocomputing, vol. 187, pp. 27–48, 2016.</li>
-                <li>18. J. Gu et al., “Recent advances in convolutional neural networks,” Pattern Recognit., vol. 77, pp. 354–377, 2018.</li>
-                <li>19. A. R. Abbas, “Intelligent Age Estimation From Facial Images Using Machine Learning Techniques,” Iraqi J. Sci., vol. 59, no. 2A, 2018.</li>
-                <li>20. Z. Qawaqneh, A. A. Mallouh, and B. D. Barkana, “Deep Convolutional Neural Network for Age Estimation based on VGG-Face Model,” no. 1, 2017.</li>
-                <br>
-                <b>Websites referred:</b>
-                <br>
-                <li>1. https://www.frontiersin.org/articles/10.3389/fbioe.2020.00080/full</li>
-                <li>2. https://www.learnopencv.com/tag/age-prediction/</li>
-                <li>3. https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/</li>
-              </ul>
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="modal fade" id="modal3" tabindex="-1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">AI Travel Planning Assistant</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal fade" id="modal3" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">AI Travel Planning Assistant</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/project3.png" class="img-fluid mb-3" alt="">
+                        <p>
+                            <h6>Travel Smarter, Not Harder: AI-Powered Trip Planning</h6>
+                            <br>
+                            <b>Turn Your Travel Daydreams into Real Plans</b>
+                            <br>
+                            <br> We’ve all been there scrolling through Instagram or YouTube Shorts, stopping at a breath-taking view and wondering, “Where is that place?” The vibe is perfect. You want to go. But soon enough, the moment passes because planning
+                            a trip takes work, searching for the destination, building an itinerary, finding flights, checking the weather it all gets overwhelming.
+                            <br> The idea was born from a simple use case, people often save or screenshot beautiful locations from social media but rarely follow through on planning the trip. Why? Because they don’t know where the place is or how to begin
+                            planning. Our goal was to build an AI tool that bridges that gap.
+                            <br>
+                            <br>
+                            <b>Introduction</b>
+                            <br>
+                            <br>
+                            <p> This project was developed by a team of four members as part of an initiative to explore the capabilities of AI in solving real-world problems through the topics we learned from the GenAI 5-day intensive kaggle course. Our
+                                goal was to design and build a smart travel planning assistant that could reduce the effort and time typically spent on organizing trips, just by uploading an image typically from social media, when we see an image while
+                                we scroll through reels or from posts, its very hard to know where this place actually located. This in itself takes lots of efforts just to search the place name and where it is located, and planning for the trip for that
+                                particular place is another story altogether. This motivated us to implement this use case from what we studied and learned.
+                                <br> We utilized a few-shot prompting approach to create an AI agent that acts as a virtual travel planner. By providing just a few examples of the desired output format, we enabled the AI to understand and generate detailed
+                                travel plans based on minimal user input, hardly just know the days of vacation and date of travel and return dates.
+                                <p>
+                                    <b>How It Works</b>
+                                    <br>
+                                    <p> The AI agent interacts with the user to collect essential travel information, including:
+                                        <br>
+                                        <ul>
+                                            <li>Origin (where they are traveling from)</li>
+                                            <li>Destination (File path of the destination image)</li>
+                                            <li>Interests (e.g., sightseeing, adventure, relaxation, cultural exploration)</li>
+                                            <li>Travel duration (number of days)</li>
+                                            <li>Budget</li>
+                                            <li>Travel dates (departure and return)</li>
+                                        </ul>
+                                        <br> Using this input, the agent dynamically generates a detailed, structured itinerary in <b>JSON</b> format, which can be further integrated into front-end applications or mobile apps. </p>
+                                    <br>
+                                    <b>Features of the Generated Travel Plan</b>
+                                    <br>
+                                    <br> The AI-generated travel plan includes:
+                                    <br>
+                                    <br>
+                                    <ul>
+                                        <li>
+                                            <b>Flight Details</b>
+                                            <br> Suggested flight options for both onward and return journeys, including estimated costs and flight durations.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Weather Information</b>
+                                            <br> A weather overview for the destination during the selected dates to help users prepare accordingly.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Accommodation Suggestions</b>
+                                            <br> Recommended hotels with check-in and check-out timings, location proximity, and price range aligned with the user's budget.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Day-wise Itinerary</b>
+                                            <br> A breakdown of activities and places to visit each day, optimized for travel time and local opening hours.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Commute and Transport Planning</b>
+                                            <br> Local travel routes between attractions, available modes of transport, estimated travel time, and associated costs.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Budget Breakdown</b>
+                                            <br> A summary of total estimated costs, including flights, accommodation, transportation, and activities.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Packing Suggestions</b>
+                                            <br> A list of items to carry based on weather, destination type, and activity choices.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Travel Tips</b>
+                                            <br> Practical advice tailored to the destination, such as local customs, safety, currency, language, and useful apps or services.
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <h4>Summary</h4>
+                                    <ul>
+                                        <li>In this project, our team of four successfully developed an AI-powered travel planning assistant using a few-shot prompting approach.</li>
+                                        <li>The agent takes in personalized user inputs such as origin, destination preferences, travel duration, budget, travel dates, and activity interests and generates a structured travel itinerary in JSON format.</li>
+                                        <li>The output includes flight and hotel details, weather forecasts, daily plans, commute information, a budget breakdown, packing suggestions, and travel tips.</li>
+                                        <li>By combining natural language understanding with contextual planning, the AI provides a complete, end-to-end travel solution.</li>
+                                        <li>This project demonstrates the potential of AI to simplify and enrich the travel planning process.</li>
+                                        <li>Through the use of few-shot prompting, we were able to guide the AI in generating highly detailed and personalized travel itineraries.</li>
+                                        <li>This not only saves time for users but also ensures they are well-prepared for their trip with accurate and relevant recommendations.</li>
+                                        <li>Looking forward, this approach can be scaled and enhanced with real-time data integrations to make travel planning even more dynamic and adaptive.</li>
+                                        <li>We can create and enhance this for users by using API calls to get real-time data and prices for flights, accomadations, weather details and to get latest prices and the conditions at the destination wheather it
+                                            is safe to travel or not, and also we can enhance by adding VISA details and corresponding websites, where users can explore more.</li>
+                                    </ul>
+                                    <hr>
+                                    <h4>References</h4>
+                                    <ul>
+                                        <li>https://www.kaggle.com/learn-guide/5-day-genai</li>
+                                    </ul>
+                                </p>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <img src="./assets/images/project3.png" class="img-fluid mb-3" alt="">
-              <p>
-              <h6>Travel Smarter, Not Harder: AI-Powered Trip Planning</h6>
-              <br>
-              <b>Turn Your Travel Daydreams into Real Plans</b>
-              <br>
-              <br> We’ve all been there scrolling through Instagram or YouTube Shorts, stopping at a breath-taking view and wondering, “Where is that place?” The vibe is perfect. You want to go. But soon enough, the moment passes because planning a trip takes work, searching for the destination, building an itinerary, finding flights, checking the weather it all gets overwhelming. <br> The idea was born from a simple use case, people often save or screenshot beautiful locations from social media but rarely follow through on planning the trip. Why? Because they don’t know where the place is or how to begin planning. Our goal was to build an AI tool that bridges that gap. <br>
-              <br>
-              <b>Introduction</b>
-              <br>
-              <br>
-              <p> This project was developed by a team of four members as part of an initiative to explore the capabilities of AI in solving real-world problems through the topics we learned from the GenAI 5-day intensive kaggle course. Our goal was to design and build a smart travel planning assistant that could reduce the effort and time typically spent on organizing trips, just by uploading an image typically from social media, when we see an image while we scroll through reels or from posts, its very hard to know where this place actually located. This in itself takes lots of efforts just to search the place name and where it is located, and planning for the trip for that particular place is another story altogether. This motivated us to implement this use case from what we studied and learned. <br> We utilized a few-shot prompting approach to create an AI agent that acts as a virtual travel planner. By providing just a few examples of the desired output format, we enabled the AI to understand and generate detailed travel plans based on minimal user input, hardly just know the days of vacation and date of travel and return dates.
-              <p>
-                <b>How It Works</b>
-                <br>
-              <p> The AI agent interacts with the user to collect essential travel information, including: <br>
-              <ul>
-                <li>Origin (where they are traveling from)</li>
-                <li>Destination (File path of the destination image)</li>
-                <li>Interests (e.g., sightseeing, adventure, relaxation, cultural exploration)</li>
-                <li>Travel duration (number of days)</li>
-                <li>Budget</li>
-                <li>Travel dates (departure and return)</li>
-              </ul>
-              <br> Using this input, the agent dynamically generates a detailed, structured itinerary in <b>JSON</b> format, which can be further integrated into front-end applications or mobile apps. </p>
-              <br>
-              <b>Features of the Generated Travel Plan</b>
-              <br>
-              <br> The AI-generated travel plan includes: <br>
-              <br>
-              <ul>
-                <li>
-                  <b>Flight Details</b>
-                  <br> Suggested flight options for both onward and return journeys, including estimated costs and flight durations.
-                </li>
-                <br>
-                <li>
-                  <b>Weather Information</b>
-                  <br> A weather overview for the destination during the selected dates to help users prepare accordingly.
-                </li>
-                <br>
-                <li>
-                  <b>Accommodation Suggestions</b>
-                  <br> Recommended hotels with check-in and check-out timings, location proximity, and price range aligned with the user's budget.
-                </li>
-                <br>
-                <li>
-                  <b>Day-wise Itinerary</b>
-                  <br> A breakdown of activities and places to visit each day, optimized for travel time and local opening hours.
-                </li>
-                <br>
-                <li>
-                  <b>Commute and Transport Planning</b>
-                  <br> Local travel routes between attractions, available modes of transport, estimated travel time, and associated costs.
-                </li>
-                <br>
-                <li>
-                  <b>Budget Breakdown</b>
-                  <br> A summary of total estimated costs, including flights, accommodation, transportation, and activities.
-                </li>
-                <br>
-                <li>
-                  <b>Packing Suggestions</b>
-                  <br> A list of items to carry based on weather, destination type, and activity choices.
-                </li>
-                <br>
-                <li>
-                  <b>Travel Tips</b>
-                  <br> Practical advice tailored to the destination, such as local customs, safety, currency, language, and useful apps or services.
-                </li>
-              </ul>
-              <hr>
-              <h4>Summary</h4>
-              <ul>
-                <li>In this project, our team of four successfully developed an AI-powered travel planning assistant using a few-shot prompting approach.</li>
-                <li>The agent takes in personalized user inputs such as origin, destination preferences, travel duration, budget, travel dates, and activity interests and generates a structured travel itinerary in JSON format.</li>
-                <li>The output includes flight and hotel details, weather forecasts, daily plans, commute information, a budget breakdown, packing suggestions, and travel tips.</li>
-                <li>By combining natural language understanding with contextual planning, the AI provides a complete, end-to-end travel solution.</li>
-                <li>This project demonstrates the potential of AI to simplify and enrich the travel planning process.</li>
-                <li>Through the use of few-shot prompting, we were able to guide the AI in generating highly detailed and personalized travel itineraries.</li>
-                <li>This not only saves time for users but also ensures they are well-prepared for their trip with accurate and relevant recommendations.</li>
-                <li>Looking forward, this approach can be scaled and enhanced with real-time data integrations to make travel planning even more dynamic and adaptive.</li>
-                <li>We can create and enhance this for users by using API calls to get real-time data and prices for flights, accomadations, weather details and to get latest prices and the conditions at the destination wheather it is safe to travel or not, and also we can enhance by adding VISA details and corresponding websites, where users can explore more.</li>
-              </ul>
-              <hr>
-              <h4>References</h4>
-              <ul>
-                <li>https://www.kaggle.com/learn-guide/5-day-genai</li>
-              </ul>
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- Resume Section -->
     <section id="resume" class="py-5">
-      <div class="container">
-        <h3 class="section-title">Education</h3>
-        <ul class="timeline mb-4">
-          <li>
-            <span>August 2024 — May 2026 (Expected)</span>
-            <strong>M.Sc. Artificial Intelligence, Florida Atlantic University</strong>
-            <p>
-            <h6 class="card-title">Course Work : </h6>
-            <p>
-            <h6 class="modal-title">
+        <div class="container">
+            <h3 class="section-title">Education</h3>
+            <ul class="timeline mb-4">
+                <li>
+                    <span>August 2024 — May 2026 (Expected)</span>
+                    <strong><p class="card-title">M.Sc. Artificial Intelligence</p> 
+              <i>Florida Atlantic University - Boca Raton, Florida, USA</i></strong>
+                    <p>
+                        <h6 style="color: #8ed502;">Course Work : </h6>
+                        <p>
+                            <h6 class="modal-title">
               <i>Computational Foundations of AI, Deep Learning, Artificial Intelligence, Reinforcement Learning, Natural Language Processing, Analysis of Algorithms</i>
             </h6>
-            </p>
-            </p>
-            <p>
-              <b>GPA</b> - 4.0 / 4.0.
-            </p>
-          </li>
-          <li>
-            <span>2017—2021</span>
-            <strong>B.Tech. Computer Science and Engineering, Gandhi Institute of Technology and Management (GITAM)</strong>
-            <p>
-            <h6 class="card-title">Course Work : </h6>
-            <p>
-            <h6 class="modal-title">
+                        </p>
+                    </p>
+                    <p>
+                        <b>GPA</b> - 4.0 / 4.0.
+                    </p>
+                </li>
+                <hr>
+                <li>
+                    <span>2017 — 2021</span>
+                    <strong><p class="card-title">B.Tech. Computer Science and Engineering</p>
+              <i>Gandhi Institute of Technology and Management (GITAM) - Hyderabad, India</i></strong>
+                    <p>
+                        <h6 style="color: #8ed502;">Course Work : </h6>
+                        <p>
+                            <h6 class="modal-title">
               <i>Artificial Intelligence, Machine Learning, JAVA, C, C++, Formal Languages and Automata theory, Design and Analysis of Algorithms, Operating systems, DBMS, UNIX, compiler design, cloud computing, cryptography, web development, discrete mathematics, Probability and statistics</i>
             </h6>
-            </p>
-            </p>
-            <p>
-              <b>CGPA</b> - 8.97 / 10.0.
-            </p>
-          </li>
-        </ul>
-        <!-- Work Experience -->
-        <h3 class="section-title">Work Experience</h3>
-        <ul class="timeline mb-4">
-          <li>
-            <span>April 2022 — April 2024</span>
-            <strong>Developer, TATA Consultancy Services (TCSL) - Hyderabad, India</strong>
-            <p class="modal-title">
-              <br> • Developed and maintained middleware solutions, managing the full development lifecycle from requirements gathering to production deployment. <br> • Designed, implemented, and integrated APIs and microservices for seamless system communication. <br> • Worked in an Agile environment, actively participating in sprint planning, daily stand-ups, and retrospectives. <br> • Implemented Jenkins CI/CD pipelines for automated builds, testing, and deployment, ensuring efficient and reliable production releases. <br> • Deployed applications onto servers, monitored performance, and troubleshot issues to ensure smooth operations.
-            </p>
-          </li>
-          <li>
-            <span>July 2021 — March 2022</span>
-            <strong>Support Executive, TATA Consultancy Services (TCSL) - Hyderabad, India</strong>
-            <p class="modal-title">
-              <br> • Provided technical support to users, troubleshooting and resolving application access issues. <br> • Monitored server performance, identified issues, and implemented solutions to ensure system stability. <br> • Managed production support activities, ensuring smooth workflow and issue resolution during project Go-Live. <br> • Collaborated with development and operations teams to enhance system reliability and user experience. <br> • Documented issues, resolutions, and best practices to streamline support processes.
-            </p>
-          </li>
-        </ul>
-        <!-- Certificates -->
-        <h3 class="section-title">Certifications</h3>
-        <ul class="mb-4">
-          <li>
-            <b>Intermediate Technical Interview Prep (Advanced)</b> -- Issued by <i>
-              <b>Codepath</b>
+                        </p>
+                    </p>
+                    <p>
+                        <b>CGPA</b> - 8.97 / 10.0.
+                    </p>
+                </li>
+            </ul>
+            <!-- Work Experience -->
+            <h3 class="section-title">Work Experience</h3>
+            <ul class="timeline mb-4">
+                <li>
+                    <span>April 2022 — April 2024</span>
+                    <strong><p style="color: #8ed502;">Developer</p>TATA Consultancy Services (TCSL) - Hyderabad, India</strong>
+                    <p class="modal-title">
+                        <br> • Developed and maintained middleware solutions, managing the full development lifecycle from requirements gathering to production deployment.
+                        <br> • Designed, implemented, and integrated APIs and microservices for seamless system communication.
+                        <br> • Worked in an Agile environment, actively participating in sprint planning, daily stand-ups, and retrospectives.
+                        <br> • Implemented Jenkins CI/CD pipelines for automated builds, testing, and deployment, ensuring efficient and reliable production releases.
+                        <br> • Deployed applications onto servers, monitored performance, and troubleshot issues to ensure smooth operations.
+                    </p>
+                </li>
+                <hr>
+                <li>
+                    <span>July 2021 — March 2022</span>
+                    <strong><p style="color: #8ed502;">Support Executive</p>TATA Consultancy Services (TCSL) - Hyderabad, India</strong>
+                    <p class="modal-title">
+                        <br> • Provided technical support to users, troubleshooting and resolving application access issues.
+                        <br> • Monitored server performance, identified issues, and implemented solutions to ensure system stability.
+                        <br> • Managed production support activities, ensuring smooth workflow and issue resolution during project Go-Live.
+                        <br> • Collaborated with development and operations teams to enhance system reliability and user experience.
+                        <br> • Documented issues, resolutions, and best practices to streamline support processes.
+                    </p>
+                </li>
+            </ul>
+            <!-- Certificates -->
+            <h3 class="section-title">Certifications</h3>
+            <ul class="mb-4">
+                <li>
+                    <b class="card-title">Intermediate Technical Interview Prep (Advanced)</b> -- Issued by <i>
+              <b class="modal-title">Codepath</b>
             </i> in 2025
-          </li>
-          <li>
-            <b>GenAI Intensive course</b> -- Issued by <i>
-              <b>Kaggle</b>
+                </li>
+                <li>
+                    <b class="card-title">GenAI Intensive course</b> -- Issued by <i>
+              <b class="modal-title">Kaggle</b>
             </i> in 2025
-          </li>
-          <li>
-            <b>Gen AI mastermind</b> -- Issued by <i>
-              <b>Outskill</b>
+                </li>
+                <li>
+                    <b class="card-title">Gen AI mastermind</b> -- Issued by <i>
+              <b class="modal-title">Outskill</b>
             </i> in 2025
-          </li>
-          <li>
-            <b>LLMOps</b> -- Issued by <i>
-              <b>Deeplearning.Ai</b>
+                </li>
+                <li>
+                    <b class="card-title">LLMOps</b> -- Issued by <i>
+              <b class="modal-title">Deeplearning.Ai</b>
             </i> in 2025
-          </li>
-          <li>
-            <b>TensorFlow Bootcamp</b> -- Issued by <i>
-              <b>Udemy</b>
+                </li>
+                <li>
+                    <b class="card-title">TensorFlow Bootcamp for Deep Learning</b> -- Issued by <i>
+              <b class="modal-title">Udemy</b>
             </i> in 2024
-          </li>
-          <li>
-            <b>Pytorch Bootcamp</b> -- Issued by <i>
-              <b>Udemy</b>
+                </li>
+                <li>
+                    <b class="card-title">Pytorch Bootcamp for Deep Learning</b> -- Issued by <i>
+              <b class="modal-title">Udemy</b>
             </i> in 2024
-          </li>
-          <li>
-            <b>Machine Learning (A-Z)</b> -- Issued by <i>
-              <b>udemy</b>
+                </li>
+                <li>
+                    <b class="card-title">Machine Learning (A-Z)</b> -- Issued by <i>
+              <b class="modal-title">udemy</b>
             </i> in 2023
-          </li>
-        </ul>
-        <!-- Technical Skills -->
-        <h3 class="section-title">Technical Skills</h3>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:90%">Python — 90%</div>
+                </li>
+            </ul>
+            <!-- Technical Skills -->
+            <h3 class="section-title">Technical Skills</h3>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:90%">Python</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:70%">JAVA</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:80%">C</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:85%">C++</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:90%">SQL</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:60%">AWS</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="width:65%">GCP</div>
+            </div>
         </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:70%">JAVA — 70%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:80%">C — 80%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:85%">C++ — 85%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:90%">SQL — 90%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:60%">AWS — 60%</div>
-        </div>
-        <div class="progress mb-3">
-          <div class="progress-bar" style="width:65%">GCP — 65%</div>
-        </div>
-      </div>
     </section>
     <!-- Contact Section -->
     <section id="contact">
-      <!--class="section">-->
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="row g-5">
-          <div class="col-md-6">
-            <div class="contact-details">
-              <div class="detail-item">
-                <i class="fas fa-envelope fa-lg text-primary"></i>
-                <div>
-                  <h5>Email</h5>
-                  <a href="mailto:gouthammallavolu@gmail.com" class="text-muted">gouthammallavolu@gmail.com</a>
+        <!--class="section">-->
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope fa-lg text-primary"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <a href="mailto:gouthammallavolu@gmail.com" class="text-muted">gouthammallavolu@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone fa-lg text-primary"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:+15618872204" class="text-muted">+1 (561) 887-2204</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="detail-item">
-                <i class="fas fa-phone fa-lg text-primary"></i>
-                <div>
-                  <h5>Phone</h5>
-                  <a href="tel:+15618872204" class="text-muted">+1 (561) 887-2204</a>
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <form id="contactForm">
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Name" required>
-              </div>
-              <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Email" required>
-              </div>
-              <div class="mb-3">
-                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-          </div>
         </div>
-      </div>
     </section>
     <footer class="footer">
-      <div class="container text-center">
-        <div class="mb-4">
-          <a href="https://github.com/GouthamMallavolu" class="social-icon">
-            <b class="fab fa-github"></b>
-          </a>
-          <a href="https://www.linkedin.com/in/goutham-mallavolu/" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.instagram.com/goutham_mallavolu/" class="social-icon">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#" class="social-icon">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://kaggle-capstone-project-genai.blogspot.com/" class="social-icon">
-            <i class="fab fa-blogger"></i>
-          </a>
-          <a href="https://www.kaggle.com/gouthammallavolu" class="social-icon">
-            <i class="fab fa-kaggle"></i>
-          </a>
+        <div class="container text-center">
+            <div class="mb-4">
+                <a href="https://github.com/GouthamMallavolu" class="social-icon">
+                    <b class="fab fa-github"></b>
+                </a>
+                <a href="https://www.linkedin.com/in/goutham-mallavolu/" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/goutham_mallavolu/" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://kaggle-capstone-project-genai.blogspot.com/" class="social-icon">
+                    <i class="fab fa-blogger"></i>
+                </a>
+                <a href="https://www.kaggle.com/gouthammallavolu" class="social-icon">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+            </div>
+            <p class="text-muted">&copy; 2025 Goutham Mallavolu. All rights reserved.</p>
         </div>
-        <p class="text-muted">&copy; 2025 Goutham Mallavolu. All rights reserved.</p>
-      </div>
     </footer>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

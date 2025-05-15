@@ -16,4 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.setAttribute('data-bs-theme', theme);
     localStorage.setItem('theme', theme);
   });
+
+  const toggler = document.getElementById('customToggler');
+  const bsTogglerButton = document.querySelector('.navbar-toggler');
+
+  bsTogglerButton.addEventListener('click', () => {
+  toggler.classList.toggle('open');
+  });
+  
 });
